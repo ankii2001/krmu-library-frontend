@@ -101,16 +101,15 @@
     .nav-links {
       color: #fff;
       text-align: center;
-      padding: 1rem;
+      padding: 0.5rem;
       width: 100%;
       display: table;
-      margin-top: -3rem;
-      
     }
   
     .nav-links:hover {
       background-color: #fff;
       color: #242222;
+      border-radius: 0;
     }
   
     .navbar-logo {
@@ -140,7 +139,6 @@
       display: block;
       text-align: center;
       margin: 2rem auto;
-      margin-bottom: 3rem;
       border-radius: 4px;
       width: 80%;
       text-decoration: none;

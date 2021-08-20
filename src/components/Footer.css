@@ -1,0 +1,218 @@
+.footer-container {
+    background-color: #242424;
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    margin-bottom: 24px;
+    padding: 24px;
+    color: #fff;
+  }
+  
+  .footer-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  
+  .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  .footer-input {
+    color:black;
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 14px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .footer-links {
+    width: 100%;
+    max-width:1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:20px;
+    margin-left:15%;
+    text-align:start;
+    width: 250px;
+    box-sizing: border-box;
+  }
+  
+  .footer-link-items h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-link-items > h2 {
+    color: #fff;
+  }
+  
+  .footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom:0.5rem;
+  }
+  
+  .footer-link-items a:hover {
+    color: #9c9898;
+    transition: 0.3s ease-out;
+  }
+  
+  .footer-email-form h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-input::placeholder {
+    color: #6e6a6a;
+  }
+  
+  /* Social Icons */
+  .social-icon-link-facebook {
+    color: #fff;
+    font-size: 24px;
+  }
+  .social-icon-link-facebook :hover{
+    color: #4267B2;
+    transition: 0.3s ease-out;
+  }
+  .social-icon-link-instagram {
+    color: #fff;
+    font-size: 24px;
+  }
+  .social-icon-link-instagram :hover{
+    color: #e1306c;
+    transition: 0.3s ease-out;
+  }
+  .social-icon-link-youtube {
+    color: #fff;
+    font-size: 24px;
+  }
+  .social-icon-link-youtube :hover{
+    color: #FF0000;
+    transition: 0.3s ease-out;
+  }
+  .social-icon-link-twitter {
+    color: #fff;
+    font-size: 24px;
+  }
+  .social-icon-link-twitter :hover{
+    color: #1DA1F2;
+    transition: 0.3s ease-out;
+  }
+  .social-icon-link-linkedin {
+    color: #fff;
+    font-size: 24px;
+  }
+  .social-icon-link-linkedin :hover{
+    color: #006192;
+    transition: 0.3s ease-out;
+  }
+  
+  .social-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto 0 auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    margin-bottom: 5px;
+  }
+  
+  .social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .website-rights {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 1rem;
+    }
+  
+    .footer-link-items {
+      display: none;
+    }
+    .footer-input {
+      width: 100%;
+      margin-bottom: 10%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+
+    .social-logo {
+      color: #fff;
+      justify-self: start;
+      margin-left: 0px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2.2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }

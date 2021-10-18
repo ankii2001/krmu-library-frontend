@@ -59,11 +59,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <button className='social-logo'>
-              K R M U
+              A.M.LMS
             </button>
             
           </div>
-          <small class='website-rights'>Copyright © 2021 KR MANGALAM UNIVERSITY</small>
+          <small class='website-rights'>Copyright © 2021 AM LIBRARY MANAGEMENT SYSTEM</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link-facebook'

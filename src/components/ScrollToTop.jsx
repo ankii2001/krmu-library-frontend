@@ -35,7 +35,7 @@ class GoTop extends Component {
         <>
           <div className="move-up">
             <span>
-              <i
+  |            <i
                 className="fas fa-arrow-circle-up fa-3x"
                 onClick={this.scrollToTop}
               ></i>

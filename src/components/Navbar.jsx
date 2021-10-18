@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <div>
-              <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.likARhL1DOy9IKx8KzOcWAHaBV%26pid%3DApi&f=1'
+              <img src='https://imagetourlconverter.com/files/KcuU7Kbxt8633492.png'
               alt='logo'
               className='w-full h-full rounded-sm'/>
             </div>
@@ -65,15 +65,15 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='/LoginAs'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                SIGN UP
+                Login Here
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>Login Here</Button>}
         </div>
       </nav>
     </>

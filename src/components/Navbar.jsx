@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <div>
-              <img src='https://imagetourlconverter.com/files/KcuU7Kbxt8633492.png'
+              <img src='https://api.freelogodesign.org/files/69f06a0ca9a742d1a2f79bf2e3b682b3/thumb/logo_200x200.png?v=637705593200000000'
               alt='logo'
               className='w-full h-full rounded-sm'/>
             </div>
